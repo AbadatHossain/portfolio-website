@@ -2,16 +2,14 @@
   Rahul Jha | Portfolio Website<br/>
   <a href="https://www.rahuljha.tech/" target="_blank">rahuljha.tech</a>
 </h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme_img.png" />
-</div>
+
 
 <br/>
 
 <div align="center">
 
-![GitHub Repo stars](https://img.shields.io/github/stars/rahuljha4171/Portfolio-Website?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/rahuljha4171/Portfolio-Website?color=red&logo=github&style=for-the-badge)
+![GitHub Repo stars](https://github.com/AbadatHossain/portfolio-website) &nbsp;
+
 
 </div>
 
@@ -57,16 +55,4 @@ The page will reload if you make edits.
 Open the project folder and Navigate to `/src/components/`. <br/>
 You will find all the components used and you can edit your information accordingly.
 
-### Show your support
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/rahuljha4171/Portfolio-Website/issues">Report A Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/rahuljha4171/Portfolio-Website/issues">Request A Feature</a>
-
-</h3>
-
-<p align="center">
-Give a ⭐ if you like this website!
-</p>
