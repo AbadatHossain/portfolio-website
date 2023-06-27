@@ -1,13 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeIcon from "../../Assets/homeicons.svg";
+// import homeIcon from "../../Assets/homeicons.svg";
+import homeIcon from "../../Assets/homeicons.png";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
 import Home2 from "./Home2";
 import Type from "./Type";
 import "./home.css";
 
-function Home() {
+ const Home = () => {
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -22,9 +23,9 @@ function Home() {
                 I'M
               </h1>
 
-              <h1 className="heading-name">
-                <strong className="main-name"> Rahul Jha</strong>
-              </h1>
+              <h3 className="heading-name">
+                <strong className="main-name"> Md. Abadat Hossain</strong>
+              </h3>
 
               <div style={{ padding: 30 }} className="type">
                 <Type />
@@ -35,7 +36,7 @@ function Home() {
               <img
                 src={homeIcon}
                 alt="home pic"
-                className="img-fluid"
+                className="img-fluid "
                 style={{ paddingTop: 50 }}
               />
             </Col>

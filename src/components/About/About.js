@@ -40,7 +40,7 @@ function About() {
             <img
               src={laptopImg}
               alt="about"
-              className="img-fluid"
+              className="img-fluid fade-up"
               data-aos="fade-left"
             />
           </Col>

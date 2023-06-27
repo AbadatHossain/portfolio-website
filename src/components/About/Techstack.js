@@ -6,6 +6,10 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
+  DiHtml5,
+  DiCss3,
+  DiMysql,
+  DiGithub,
 } from "react-icons/di";
 import {
   SiFirebase,
@@ -18,6 +22,12 @@ import {
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
@@ -34,20 +44,16 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <DiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiGithub />
       </Col>
+   
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMui />
-      </Col>
+     
     </Row>
   );
 }

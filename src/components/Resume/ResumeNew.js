@@ -8,14 +8,17 @@ import "./resume.css";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =
-  "https://raw.githubusercontent.com/rahuljha4171/Portfolio-Website/c35fd111fd8c2beb9e2c243905aea24503bda9b3/src/Assets/Rahul%20Jha%20Resume.pdf";
+// const resumeLink =
+//   "https://drive.google.com/file/d/1ZjYbUOfePUs31QRaRz8N7p3ErlAG0eVc/view?usp=sharing";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
+  const [height, setHeight] = useState(950);
+
 
   useEffect(() => {
     setWidth(window.innerWidth);
+    setHeight(window.innerHeight);
   }, []);
 
   return (
@@ -24,7 +27,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://raw.githubusercontent.com/rahuljha4171/Portfolio-Website/c35fd111fd8c2beb9e2c243905aea24503bda9b3/src/Assets/Rahul%20Jha%20Resume.pdf"
+            href="https://drive.google.com/file/d/1ZjYbUOfePUs31QRaRz8N7p3ErlAG0eVc/view?usp=sharing"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -33,23 +36,8 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <Row className="resume">
-          <Document file={resumeLink} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
-        </Row>
-
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href="https://raw.githubusercontent.com/rahuljha4171/Portfolio-Website/c35fd111fd8c2beb9e2c243905aea24503bda9b3/src/Assets/Rahul%20Jha%20Resume.pdf"
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
+      
+        
         <ScrollToTop />
       </Container>
     </div>
