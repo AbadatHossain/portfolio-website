@@ -2,7 +2,7 @@ import React from "react";
 import { Row } from "react-bootstrap";
 import gitStatImg from "../../Assets/gitstat.png";
 
-function Github() {
+const Github = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 style={{ paddingBottom: "20px" }} data-aos="fade-right">

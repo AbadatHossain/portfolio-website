@@ -5,21 +5,14 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiGit,
   DiHtml5,
   DiCss3,
   DiMysql,
   DiGithub,
 } from "react-icons/di";
-import {
-  SiFirebase,
-  SiNextdotjs,
-  SiTailwindcss,
-  SiRedux,
-  SiMui,
-} from "react-icons/si";
+import { SiFirebase, SiTailwindcss } from "react-icons/si";
 
-function Techstack() {
+const Techstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
@@ -49,11 +42,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiGithub />
       </Col>
-   
+
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
-     
     </Row>
   );
 }

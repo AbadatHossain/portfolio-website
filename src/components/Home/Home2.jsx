@@ -2,15 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/Avatar.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-  AiOutlineMail,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineTwitter, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-function Home2() {
+const Home2 = () => {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -66,7 +61,7 @@ function Home2() {
             <ul className="home-about-social-links" data-aos="fade-up">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Rahuljha4171"
+                  href="https://github.com/AbadatHossain"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +72,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Rahuljha4171"
+                  href="https://twitter.com/abadat26"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -86,9 +81,10 @@ function Home2() {
                   <AiOutlineTwitter />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
-                  href="mailto:rahuljha4171@outlook.com"
+                  href="mailto:abadat26@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,9 +93,10 @@ function Home2() {
                   <AiOutlineMail />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/Rahuljha4171/"
+                  href="https://www.linkedin.com/in/md-abadat-hossain-ba0a04212/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -108,22 +105,11 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/dead.programmer/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                  aria-label="instagram"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
             </ul>
           </Col>
         </Row>
       </Container>
     </Container>
   );
-}
+};
 export default Home2;

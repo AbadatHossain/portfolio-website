@@ -16,8 +16,9 @@ import {
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Contact from "./Contact/Contact";
 
-function App() {
+const App = () => {
   const [load, upadateLoad] = useState(true);
   const [{ themename }] = React.useContext(ThemeContext);
 
@@ -41,6 +42,7 @@ function App() {
             <Route path="/project" element={<Projects />} />
             <Route path="/about" element={<About />} />
             <Route path="/resume" element={<Resume />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
           <Footer />

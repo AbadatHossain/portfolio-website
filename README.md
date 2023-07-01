@@ -1,6 +1,6 @@
 <h2 align="center">
-  Rahul Jha | Portfolio Website<br/>
-  <a href="https://www.rahuljha.tech/" target="_blank">rahuljha.tech</a>
+  Abadat Hossain | Portfolio Website<br/>
+  <a href="https://resonant-salamander-174be0.netlify.app/" target="_blank">Md. Abadat Hossain</a>
 </h2>
 
 
@@ -13,11 +13,11 @@
 
 </div>
 
-You can fork this repo to modify and make changes according to your need. Please give me proper credit by linking back to [Rahuljha4171](https://github.com/rahuljha4171/Portfolio-Website). Thanks in Advance😍!
+You can fork this repo to modify and make changes according to your need. Please give me proper credit by linking back to [Abadat Hossain](https://github.com/AbadatHossain/portfolio-website). Thanks in Advance😍!
 
 ## Built With
 
-My personal portfolio website <a href="https://www.rahuljha.tech/" target="_blank">rahuljha.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio website <a href="https://resonant-salamander-174be0.netlify.app/" target="_blank">Md. Abadat Hossain</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project is built using these technologies.
 

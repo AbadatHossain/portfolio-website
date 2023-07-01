@@ -10,7 +10,7 @@ import logoDark from "../../Assets/logoDark.png";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 
-function NavBar() {
+const NavBar = () => {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
   const [{ themename, toggeltheme }] = useContext(ThemeContext);
@@ -49,7 +49,7 @@ function NavBar() {
             src={themename === "light" ? logoDark : logoLight}
             className="img-fluid logo"
             alt="brand"
-            style={{width: "48", height: "40"}}
+            style={{ width: "48", height: "40" }}
           />
         </Navbar.Brand>
 
@@ -104,7 +104,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-          
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                Contact
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
 
           <Nav.Item>
@@ -118,6 +126,6 @@ function NavBar() {
       </Container>
     </Navbar>
   );
-}
+};
 
 export default NavBar;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./preloader.css";
-function Pre(props) {
+const Pre = (props) => {
   return <div id={props.load ? "preloader" : "preloader-none"}></div>;
 }
 
