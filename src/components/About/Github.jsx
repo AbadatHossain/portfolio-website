@@ -1,6 +1,6 @@
 import React from "react";
+import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
-import gitStatImg from "../../Assets/gitstat.png";
 
 const Github = () => {
   return (
@@ -9,7 +9,13 @@ const Github = () => {
         How much <span className="primary-header">Code</span> I Write
       </h1>
       <div className="gitContainer" data-aos="fade-up">
-        <img src={gitStatImg} alt="" />
+        <GitHubCalendar
+          username="AbadatHossain"
+          color="#1872B6"
+          blockSize={15}
+          blockMargin={5}
+          fontSize={16}
+        />
       </div>
     </Row>
   );
