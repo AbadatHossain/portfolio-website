@@ -4,6 +4,9 @@
   padding-bottom: 30px !important;
   background-color: var(--clr-bg) !important;
 }
+.profileText{
+  padding: 20px;
+}
 
 .tech-icons {
   font-size: 4.5em !important;

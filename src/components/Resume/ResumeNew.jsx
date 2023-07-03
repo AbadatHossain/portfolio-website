@@ -21,7 +21,7 @@ const ResumeNew = () => {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://drive.google.com/file/d/1ZjYbUOfePUs31QRaRz8N7p3ErlAG0eVc/view?usp=sharing"
+            href="https://drive.google.com/file/d/1LS5ju03Yuedbi9noiQ-YVHb_Xq7sTTUe/view?usp=sharing"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
